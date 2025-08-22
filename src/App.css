@@ -1,16 +1,7 @@
+@import url(https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css);
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -35,4 +26,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app {
+  padding:18vh 20%;
+  height: 100px;
+
+}
+.table-custom{
+  text-align:center;
+}
+.app-dark {
+  color:white !important;
+  background-color: black;
+  
+}
+.my-heading{
+  margin-bottom: 5vh;
 }
